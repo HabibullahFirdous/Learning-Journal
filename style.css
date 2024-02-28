@@ -8,7 +8,7 @@ html {
 }
 body {
   font-family: "Source Sans 3", sans-serif;
-  transition: all 1s;
+
 }
 
 /* Nav and Header Secion */
@@ -84,7 +84,7 @@ nav .menu-bar {
 nav .journal {
   display: flex;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   align-items: center;
   gap: 3px;
   text-decoration: none;
@@ -244,14 +244,16 @@ footer p span {
 }
 
 @media (min-width: 550px) {
+
   header {
     background-image: url(./img/blog-image-hero.png);
     background-size: cover;
     background-position: center;
   }
+  
   nav .journal {
     font-size: 2rem;
-    padding: 2.4rem 5.3rem;
+    padding: 2.4rem 0;
   }
   nav .journal img {
     width: 3.5rem;
@@ -277,8 +279,8 @@ footer p span {
     gap: 4rem;
   }
   nav .menu-bar ul li a {
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 700;
     background-color: #fff;
     color: #090909;
     padding: 0;
@@ -310,5 +312,22 @@ footer p span {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2.6rem;
+  }
+  .blog-date {
+    font-size: 1.5rem;
+  }
+  .blog-text {
+    font-size: 1.6rem;
+  }
+  .posts-container h2 {
+    font-size: 2.4rem;
+  }
+  .posts-container p {
+    font-size: 1.9rem;
+  }
+  .recent-post-heading {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-top: 7.2rem;
   }
 }

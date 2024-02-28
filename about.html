@@ -5,6 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>About</title>
+    <style>
+      .recent-post-heading {
+        text-align: center;
+        margin-top: 7.2rem;
+      }
+      @media (min-width: 550px) {
+        .about-me {
+          display: flex;
+          align-items: center;
+          gap: 3.3rem;
+        }
+        .about-me h1 {
+          max-width: 76rem;
+          font-size: 3.6rem;
+        }
+        .about-me p {
+          font-size: 1.6rem;
+          max-width: 76rem;
+          color: #151515;
+        }
+        
+      }
+    </style>
   </head>
   <body>
     <nav>
@@ -56,6 +79,10 @@
           motivated.
         </p>
       </div>
+    </section>
+    <section class="main">
+      <p class="recent-post-heading">Recent Post</p>
+      <div class="blog-container"></div>
     </section>
     <footer>
       <p>My Learning Journal <span>Copyright ©2022</span></p>
